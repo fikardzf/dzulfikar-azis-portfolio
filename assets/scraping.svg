@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="840" height="700" viewBox="0 0 840 700">
+<defs>
+  <linearGradient id="bgGlow" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0D1012"/><stop offset="1" stop-color="#070709"/></linearGradient>
+  <radialGradient id="greenGlow" cx="78%" cy="18%" r="55%"><stop offset="0" stop-color="#006847" stop-opacity=".34"/><stop offset="1" stop-color="#006847" stop-opacity="0"/></radialGradient>
+  <pattern id="grid" width="44" height="44" patternUnits="userSpaceOnUse"><path d="M44 0H0V44" fill="none" stroke="#18181C" stroke-width="1"/></pattern>
+  <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%"><feDropShadow dx="0" dy="18" stdDeviation="16" flood-color="#000" flood-opacity=".25"/></filter>
+</defs>
+<rect width="840" height="700" fill="url(#bgGlow)"/>
+<rect width="840" height="700" fill="url(#grid)"/>
+<rect width="840" height="700" fill="url(#greenGlow)"/>
+
+<rect x="60" y="132" width="720" height="430" rx="28" fill="#0A0B0E" stroke="#26262A" filter="url(#shadow)"/>
+<rect x="96" y="174" width="648" height="60" rx="18" fill="#121318" stroke="#2C2C32"/>
+<circle cx="126" cy="204" r="7" fill="#74C7A9"/>
+<rect x="148" y="196" width="252" height="16" rx="8" fill="#282A31"/>
+<rect x="96" y="258" width="420" height="248" rx="22" fill="#111217" stroke="#2B2C33"/>
+<rect x="122" y="292" width="368" height="28" rx="10" fill="#171920"/>
+<rect x="122" y="338" width="368" height="18" rx="9" fill="#242730"/>
+<rect x="122" y="372" width="368" height="18" rx="9" fill="#1F2128"/>
+<rect x="122" y="406" width="368" height="18" rx="9" fill="#242730"/>
+<rect x="122" y="440" width="368" height="18" rx="9" fill="#1F2128"/>
+<rect x="548" y="258" width="196" height="248" rx="22" fill="#111217" stroke="#2B2C33"/>
+<rect x="574" y="292" width="144" height="90" rx="16" fill="#0D2B21" stroke="#0C865B"/>
+<text x="598" y="344" font-family="Oswald, Arial Narrow, sans-serif" font-size="36" font-weight="700" fill="#FAFAFA">CSV</text>
+<rect x="574" y="404" width="144" height="18" rx="9" fill="#2D2F37"/>
+<rect x="574" y="434" width="118" height="18" rx="9" fill="#20232A"/>
+
+<text x="34" y="44" font-family="JetBrains Mono, monospace" font-size="12" letter-spacing="3" fill="#74C7A9">KAR LABS / DATA EXTRACTION</text>
+<text x="34" y="88" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="700" fill="#FAFAFA">Web Scraping Tools</text>
+<text x="34" y="668" font-family="JetBrains Mono, monospace" font-size="11" letter-spacing="3" fill="#62626B">PROJECT 08 / KAR LABS</text>
+<text x="806" y="44" text-anchor="end" font-family="JetBrains Mono, monospace" font-size="12" letter-spacing="3" fill="#E4E4E7">08 / 08</text>
+</svg>

@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="840" height="700" viewBox="0 0 840 700">
+<defs>
+  <linearGradient id="bgGlow" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0D1012"/><stop offset="1" stop-color="#070709"/></linearGradient>
+  <radialGradient id="greenGlow" cx="78%" cy="18%" r="55%"><stop offset="0" stop-color="#006847" stop-opacity=".34"/><stop offset="1" stop-color="#006847" stop-opacity="0"/></radialGradient>
+  <pattern id="grid" width="44" height="44" patternUnits="userSpaceOnUse"><path d="M44 0H0V44" fill="none" stroke="#18181C" stroke-width="1"/></pattern>
+  <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%"><feDropShadow dx="0" dy="18" stdDeviation="16" flood-color="#000" flood-opacity=".25"/></filter>
+</defs>
+<rect width="840" height="700" fill="url(#bgGlow)"/>
+<rect width="840" height="700" fill="url(#grid)"/>
+<rect width="840" height="700" fill="url(#greenGlow)"/>
+
+<rect x="60" y="132" width="720" height="430" rx="28" fill="#0A0B0E" stroke="#26262A" filter="url(#shadow)"/>
+<line x1="202" y1="274" x2="390" y2="274" stroke="#0C865B" stroke-width="3" stroke-dasharray="9 9"/>
+<line x1="480" y1="274" x2="638" y2="274" stroke="#43434C" stroke-width="3"/>
+<line x1="436" y1="310" x2="436" y2="410" stroke="#43434C" stroke-width="3"/>
+<line x1="436" y1="410" x2="638" y2="410" stroke="#43434C" stroke-width="3"/>
+<rect x="116" y="224" width="132" height="100" rx="18" fill="#121318" stroke="#0C865B"/>
+<rect x="370" y="224" width="132" height="100" rx="18" fill="#121318" stroke="#31323A"/>
+<rect x="592" y="224" width="132" height="100" rx="18" fill="#121318" stroke="#31323A"/>
+<rect x="370" y="360" width="132" height="100" rx="18" fill="#0D2B21" stroke="#0C865B"/>
+<rect x="592" y="360" width="132" height="100" rx="18" fill="#121318" stroke="#31323A"/>
+<text x="146" y="274" font-family="JetBrains Mono, monospace" font-size="14" letter-spacing="2" fill="#74C7A9">TRIGGER</text>
+<text x="404" y="274" font-family="JetBrains Mono, monospace" font-size="14" letter-spacing="2" fill="#A1A1AA">ACTION</text>
+<text x="615" y="274" font-family="JetBrains Mono, monospace" font-size="14" letter-spacing="2" fill="#A1A1AA">STATUS</text>
+<text x="398" y="410" font-family="JetBrains Mono, monospace" font-size="14" letter-spacing="2" fill="#74C7A9">FOLLOW UP</text>
+<text x="618" y="410" font-family="JetBrains Mono, monospace" font-size="14" letter-spacing="2" fill="#A1A1AA">NOTIFY</text>
+
+<text x="34" y="44" font-family="JetBrains Mono, monospace" font-size="12" letter-spacing="3" fill="#74C7A9">KAR LABS / AUTOMATION</text>
+<text x="34" y="88" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="700" fill="#FAFAFA">Workflow Automation</text>
+<text x="34" y="668" font-family="JetBrains Mono, monospace" font-size="11" letter-spacing="3" fill="#62626B">PROJECT 04 / KAR LABS</text>
+<text x="806" y="44" text-anchor="end" font-family="JetBrains Mono, monospace" font-size="12" letter-spacing="3" fill="#E4E4E7">04 / 08</text>
+</svg>

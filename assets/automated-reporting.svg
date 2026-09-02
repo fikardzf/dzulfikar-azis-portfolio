@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="1000" viewBox="0 0 1400 1000">
+<defs>
+ <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#0b0c0e"/><stop offset="1" stop-color="#030404"/></linearGradient>
+ <radialGradient id="glow" cx="78%" cy="18%" r="55%"><stop stop-color="#006847" stop-opacity=".35"/><stop offset="1" stop-color="#006847" stop-opacity="0"/></radialGradient>
+ <pattern id="grid" width="60" height="60" patternUnits="userSpaceOnUse"><path d="M60 0H0V60" fill="none" stroke="#17191b" stroke-width="1"/></pattern>
+ <filter id="shadow"><feDropShadow dx="0" dy="24" stdDeviation="24" flood-opacity=".35"/></filter>
+</defs>
+<rect width="1400" height="1000" fill="url(#bg)"/><rect width="1400" height="1000" fill="url(#grid)"/><rect width="1400" height="1000" fill="url(#glow)"/>
+
+<text x="58" y="70" font-family="monospace" font-size="20" letter-spacing="5" fill="#74C7A9">FULL-STACK / AUTOMATED REPORTING SYSTEM</text>
+<text x="58" y="126" font-family="Arial,sans-serif" font-size="42" font-weight="700" fill="#FAFAFA">Automated Reporting System</text>
+<rect x="58" y="170" width="1284" height="700" rx="34" fill="#0c0d10" stroke="#2a2c30" filter="url(#shadow)"/>
+<rect x="84" y="196" width="226" height="648" rx="24" fill="#101216" stroke="#25282d"/>
+<text x="114" y="246" font-family="Arial,sans-serif" font-size="24" font-weight="700" fill="#FAFAFA">Reports</text>
+<rect x="108" y="286" width="178" height="52" rx="14" fill="#0d2a21" stroke="#087653"/><text x="132" y="319" font-family="Arial,sans-serif" font-size="18" fill="#74C7A9">Overview</text>
+<g fill="#A1A1AA" font-family="Arial,sans-serif" font-size="18"><text x="132" y="382">Schedules</text><text x="132" y="434">Recipients</text><text x="132" y="486">Templates</text><text x="132" y="538">Data Sources</text><text x="132" y="590">Delivery Logs</text></g>
+<rect x="338" y="196" width="978" height="116" rx="24" fill="#101216" stroke="#25282d"/>
+<text x="370" y="241" font-family="monospace" font-size="15" letter-spacing="3" fill="#74C7A9">AUTOMATED REPORTING</text><text x="370" y="280" font-family="Arial,sans-serif" font-size="29" font-weight="700" fill="#FAFAFA">Executive Report Dashboard</text>
+<rect x="1082" y="226" width="194" height="54" rx="16" fill="#006847"/><text x="1128" y="259" font-family="Arial,sans-serif" font-size="18" font-weight="700" fill="#fff">Run Report</text>
+<rect x="338" y="338" width="298" height="176" rx="22" fill="#111318" stroke="#2a2d32"/><text x="366" y="380" font-family="Arial,sans-serif" font-size="17" fill="#A1A1AA">Reports Generated</text><text x="366" y="438" font-family="Arial,sans-serif" font-size="48" font-weight="700" fill="#FAFAFA">184</text><text x="366" y="478" font-family="Arial,sans-serif" font-size="16" fill="#74C7A9">+22 this month</text>
+<rect x="660" y="338" width="298" height="176" rx="22" fill="#111318" stroke="#2a2d32"/><text x="688" y="380" font-family="Arial,sans-serif" font-size="17" fill="#A1A1AA">Success Rate</text><text x="688" y="438" font-family="Arial,sans-serif" font-size="48" font-weight="700" fill="#74C7A9">99.2%</text><text x="688" y="478" font-family="Arial,sans-serif" font-size="16" fill="#71717A">Email + Drive delivery</text>
+<rect x="982" y="338" width="334" height="176" rx="22" fill="#111318" stroke="#2a2d32"/><text x="1010" y="380" font-family="Arial,sans-serif" font-size="17" fill="#A1A1AA">Next Schedule</text><text x="1010" y="426" font-family="Arial,sans-serif" font-size="28" font-weight="700" fill="#FAFAFA">08:00 AM</text><text x="1010" y="468" font-family="Arial,sans-serif" font-size="16" fill="#74C7A9">Daily Sales Summary</text>
+<rect x="338" y="540" width="616" height="304" rx="24" fill="#101216" stroke="#25282d"/>
+<text x="370" y="584" font-family="Arial,sans-serif" font-size="22" font-weight="700" fill="#FAFAFA">Delivery Performance</text>
+<polyline points="384,760 448,710 514,726 582,656 652,684 728,618 806,638 902,586" fill="none" stroke="#74C7A9" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M384 760 L448 710 L514 726 L582 656 L652 684 L728 618 L806 638 L902 586 L902 806 L384 806 Z" fill="#006847" opacity=".13"/>
+<rect x="982" y="540" width="334" height="304" rx="24" fill="#101216" stroke="#25282d"/>
+<text x="1010" y="584" font-family="Arial,sans-serif" font-size="22" font-weight="700" fill="#FAFAFA">Automation Flow</text>
+<g font-family="Arial,sans-serif" font-size="16"><rect x="1020" y="620" width="256" height="44" rx="14" fill="#0d2a21" stroke="#087653"/><text x="1042" y="648" fill="#74C7A9">1. Collect data sources</text><rect x="1020" y="680" width="256" height="44" rx="14" fill="#14161b" stroke="#30323a"/><text x="1042" y="708" fill="#D4D4D8">2. Generate report</text><rect x="1020" y="740" width="256" height="44" rx="14" fill="#14161b" stroke="#30323a"/><text x="1042" y="768" fill="#D4D4D8">3. Deliver to recipients</text></g>
+<text x="58" y="946" font-family="monospace" font-size="16" letter-spacing="4" fill="#71717A">PROJECT 02 / FULL-STACK ENGINEERING</text><text x="58" y="908" font-family="monospace" font-size="12" letter-spacing="1.1" fill="#74C7A9">NEXT.JS 15 • REACT 19 • TYPESCRIPT • TAILWIND V4 • TANSTACK QUERY • RECHARTS • LUCIDE REACT • NESTJS 10 • PRISMA ORM 5 • MARIADB 12.2 / MYSQL</text></svg>
