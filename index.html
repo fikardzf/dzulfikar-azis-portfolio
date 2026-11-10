@@ -53,9 +53,28 @@ a,button{cursor:pointer}
 button:disabled{cursor:not-allowed}
 a:focus-visible,button:focus-visible{outline:2px solid var(--accent2);outline-offset:4px}
 .hamb{width:44px;height:44px}
+#preloader{display:none}
+html.js-ready #preloader{display:grid}
+.reveal{opacity:1;transform:none;will-change:auto}
+html.js-ready .reveal:not(.in){opacity:0;transform:translateY(42px);will-change:transform,opacity}
+html.js-ready .reveal.in{opacity:1;transform:none}
+main>section:not(#hero),main>.marquee{opacity:1;transform:none;filter:none;clip-path:none;will-change:auto}
+html.js-ready main>section:not(#hero),html.js-ready main>.marquee{opacity:0;transform:translateY(72px) scale(.992);filter:blur(8px);clip-path:inset(7% 0 0 0);will-change:opacity,transform,filter,clip-path}
+html.js-ready main>section:not(#hero).section-in,html.js-ready main>.marquee.section-in{opacity:1;transform:none;filter:none;clip-path:inset(0 0 0 0)}
+html.js-ready main>section:not(#hero).section-past{transform:translateY(-10px) scale(.998)}
+.line-reveal>span{transform:none}
+html.js-ready .line-reveal:not(.in)>span{transform:translateY(108%)}
+html.js-ready .line-reveal.in>span{transform:none}
+.img-reveal::after{transform:translateY(-102%)}
+html.js-ready .img-reveal:not(.in)::after{transform:translateY(0)}
+html.js-ready .img-reveal.in::after{transform:translateY(-102%)}
+.img-reveal img{transform:none}
+html.js-ready .img-reveal:not(.in) img{transform:scale(1.14)}
+html.js-ready .img-reveal.in img{transform:scale(1.02)}
+@media(max-width:780px){html.js-ready main>section:not(#hero),html.js-ready main>.marquee{transform:translateY(52px) scale(.995);filter:blur(6px);clip-path:inset(5% 0 0 0)}html.js-ready main>section:not(#hero).section-past{transform:translateY(-6px) scale(.999)}}
 </style>
 </head>
-<body class="no-scroll">
+<body>
 <div id="preloader"><div class="pre-half top"></div><div class="pre-half bottom"></div><div class="pre-content"><div class="pre-label">Loading portfolio</div><div class="pre-count" id="preCount">0</div></div></div>
 <div id="cursor-dot"></div><div id="cursor-ring"></div>
 <nav id="navbar"><a href="#hero" class="logo" data-hover><span class="logo-name">Dzulfikar <span>Azis</span></span><span class="logo-meta">Application Support</span></a><ul class="nav-links"><li><a class="nav-link" href="#work" data-hover>Work</a></li><li><a class="nav-link" href="#about" data-hover>About</a></li><li><a class="nav-link" href="#experience" data-hover>Experience</a></li><li><a class="nav-link" href="#contact" data-hover>Contact</a></li></ul><button class="hamb" id="hamb" type="button" aria-label="Open menu" aria-controls="mobile-menu" aria-expanded="false"><span></span><span></span><span></span></button></nav>
@@ -113,6 +132,8 @@ if(matchMedia('(hover:hover)').matches){document.querySelectorAll('.magnetic').f
 const heroImg=document.querySelector('.hero-frame img');function parallax(){if(!heroImg)return;heroImg.style.transform='none'}addEventListener('resize',parallax,{passive:true});parallax();
 // SMOOTH ANCHOR
 for(const a of document.querySelectorAll('a[href^="#"]'))a.addEventListener('click',e=>{const target=document.querySelector(a.getAttribute('href'));if(target){e.preventDefault();target.scrollIntoView({behavior:reduced?'auto':'smooth',block:'start'})}});
+document.body.classList.add('no-scroll');
+document.documentElement.classList.add('js-ready');
 </script>
 </body>
 </html>
